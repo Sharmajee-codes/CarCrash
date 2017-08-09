@@ -11,7 +11,7 @@ cx_Freeze.setup(
     name = "Car Crash",
     
     options = {"build_exe":{"packages" :["pygame"],
-                             "include_files":["car.png","lambo.png","music.mp3","accel.wav","boom.png","break.wav","crash.wav","Intro.jpg","exitgame.png","invexitgame.png","playgame.png","invplaygame.png","Polcar.png","road.png"]
+                             "include_files":["car.png","Resume.png","invResume.png","lambo.png","music.mp3","accel.wav","boom.png","break.wav","crash.wav","Intro.jpg","exitgame.png","invexitgame.png","playgame.png","invplaygame.png","Polcar.png","road.png"]
                              }
                 },
     executables = executables
